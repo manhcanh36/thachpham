@@ -1,0 +1,28 @@
+body{
+    width: 960px;
+    font-family: Arial;
+    font-size: 15px;
+    color: blueviolet;
+    margin: 0;
+}
+#header{
+    background-color: chartreuse;
+    padding: 10px 25px;
+}
+#content{
+    background-color: aqua;
+    width: 590px;
+    float: left;
+    padding: 1em;
+}
+#sidebar{
+    background: red;
+    width: 200px;
+    float: right;
+    padding: 1em;
+}
+#footer{
+    clear: both;
+    background-color: antiquewhite;
+    padding: 1em;
+}

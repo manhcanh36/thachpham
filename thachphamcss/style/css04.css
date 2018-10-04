@@ -1,0 +1,8 @@
+#box1{
+    padding: 15px;
+    width: 500px;
+    height: 500px;
+    background: aqua;
+    color: red;
+    box-sizing: content-box;
+}

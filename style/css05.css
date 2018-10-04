@@ -1,0 +1,28 @@
+#text{
+    background:red;
+    width: 600px;
+    color: black;
+}
+#text p{
+    text-indent: 15%;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#shadow{
+    text-shadow: chartreuse 2px 3px 4px;
+    color: aliceblue;
+}
+#multi-shadow{
+    text-shadow: red 2px -1px 3px, blueviolet -2px 1px 2px;
+    color: aliceblue;
+}
+#uppercase{
+    text-transform: uppercase;
+}
+#lowercase{
+    text-transform: lowercase;
+}
+#capitalize{
+    text-transform: capitalize;
+}
