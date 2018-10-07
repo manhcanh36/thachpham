@@ -1,0 +1,14 @@
+.inline{
+    background-color: aqua;
+    border: 1px solid red;
+    display: inline;
+}
+.block{
+    background-color: chartreuse;
+    display: block;
+}
+.list div{
+    list-style-type: square;
+    margin-left: 32px;
+
+}

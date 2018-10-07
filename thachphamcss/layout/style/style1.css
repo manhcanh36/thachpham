@@ -1,0 +1,84 @@
+body{
+    font-family: Helvetica,Arial;
+    font-size: 16px;
+    line-height: 1.254em;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover,a:visited{
+    color: red;
+}
+#container{
+    padding-left: 150px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+#menu{
+    position: fixed;
+    height: 100%;
+    background-color: silver;
+    width: 150px;
+    left: 0;
+}
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#menu ul li{
+    line-height: 2.9em;
+    height: 2.9em;
+}
+#menu ul li a{
+    display: block;
+    color: black;
+    padding: 0 1em;
+    border-bottom: 1px solid gray;
+}
+#menu li:hover{
+    background-color: greenyellow;
+}
+#content{
+    padding: 1em 8em;
+}
+#header,.call-to-action{
+    text-align: center;
+}
+#slogan{
+    color: cornflowerblue;
+    font-size: 0.8em;
+}
+.call-to-action{
+    padding: 1.5em 20%;
+    background-color: #EFEFEF;
+    border: 1px solid yellow;
+}
+.row{
+    overflow: auto;
+    margin: 1.5em auto;
+}
+.row .col{
+    float: left;
+    width: 31.333%;
+    margin-right: 2.99%;
+}
+.row .col:last-child{
+    float: right;
+    margin-right: 0;
+}
+.row .col img{
+    float: left;
+    margin-right: 1em;
+}
+#footer{
+    font-size: 85%;
+    border-top: 1px solid #E6E6E6;
+    color: gray;
+    padding: 1em 3em;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.menu-doc ul {
+    list-style-type: none;
+    background: chartreuse;
+    width: 200px;
+
+}
+.menu-doc ul li{
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid white;
+    padding: 0 1em;
+    position: relative;
+}
+.menu-doc ul li a{
+    color: chocolate;
+    text-decoration: none;
+    display: block;
+}
+.menu-doc ul li:hover{
+    background: gray;
+}
+.menu-doc .sub-menu{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: 0;
+
+}
+.menu-doc ul li:hover .sub-menu{
+    display: block;
+}
